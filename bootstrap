@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> 
+
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Inicio </title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    
+
+<link rel="stylesheet" href="./css/estilos.css">
+    </head>
+<body >
+
+<div class="contanier-fluid ">
+    <div class="row color">
+        <header class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="./imagenes/logo.jpg" alt="logo" class="imgLog"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                        Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="./paginas/plantasdeinterior.html">Plantas de interior</a></li>
+                        <li><a class="dropdown-item" href="./paginas/plantasdeexterior.html">Plantas de exterior</a></li>
+                        <li><a class="dropdown-item" href="./paginas/lithops.html">Lithops</a></li>
+                        <li><a class="dropdown-item" href="./paginas/suculentas.html">Suculentas</a></li>
+                        <li><a class="dropdown-item" href="./paginas/orquideas.html">Orquideas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./paginas/envios.html">Envios</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+</header>
+</div>
+<div class="row color">
+    <main class="col-12">
+        <h2 class="h4 titulo ">Inicio</h2>
+    </main>
+            </div>
+
+
+    <div class="row color ">
+    <div class="col-12 ">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <img src="./imagenes/principal/uno.jpg" class="d-block w-100" alt="logo">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/principal/sucunueve.jpg" class="d-block w-100" alt="vivero">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/principal/sucudiez.jpg" class="d-block w-100" alt="vivero">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    
+    </div>
+    </div>
+    
+
+    <div class="row color ">
+    <div class=" pie col-12 finalInicio">
+    
+    <a href="./index.html">Inicio </a> 
+    <a href="./paginas/nosotros.html">Nosotros </a>
+    <a href="./paginas/productos.html">Productos </a>
+    <a href="./paginas/contacto.html">Contacto </a>
+    <a href="./paginas/envios.html">Envios </a>
+    
+<footer class="finalInicio">
+    Copyright - Redes sociales 
+</footer>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
